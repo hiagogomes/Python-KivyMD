@@ -26,7 +26,7 @@ class LiveApp(MDApp, App):
     ]
 
     def build_app(self):
-
+        self.theme_cls.theme_style = 'Light'
         return Factory.MainScreenManager()
 
 if __name__ == "__main__":
